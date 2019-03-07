@@ -1,7 +1,15 @@
-gitchanges{
-	font-weight: -1;
-	font-size: smaller;
-	color: black;
-	margin: auto;
-	display: inline-flex;
+.active{
+	display: block;
+}
+ul{
+	width: 100%;
+}
+img .active{
+	display: none;
+}
+.navbar-nav{
+	display: flex;
+}
+.navbar-nav > li{
+	flex: 1;
 }
