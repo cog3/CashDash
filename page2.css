@@ -41,6 +41,7 @@ html, body {
 	flex-wrap: wrap;
 	text-align: center;
 	color: darkblue;
+	bottom: 0;
 }
 
 .content-container .card {
@@ -49,20 +50,9 @@ html, body {
 	background-image: url('bitcoin.jpg');
 	border: 3px solid #333;
 	margin: 5px;
-	font-family: arial;
 
 }
-	.text-block{
-	position: absolute;
-	bottom: 10px;
-	right: 10px;
-	background-color: black;
-	color: white;
-	padding-left: 10px;
-	padding-right: 10px;
-
-}
-
+	
 .content-container .card1 {
 	height: 195px;
 	flex: 0 0 195px;
@@ -74,7 +64,7 @@ html, body {
 .content-container .card2 {
 	height: 195px;
 	flex: 0 0 195px;
-	background-image: url('Dash.jpg');
+	background-image: url('dash.jpg');
 	border: 3px solid #333;
 	margin: 5px;
 }
@@ -156,17 +146,6 @@ html, body {
 	font-family: Arial;
 }
 
-.text-block{
-	position: absolute;
-	bottom: 10px;
-	right: 10px;
-	background-color: black;
-	color: white;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-
 @media only screen and (max-width: 1199px) {
 	.app-container {
 		flex-direction: row;
@@ -209,3 +188,4 @@ html, body {
 		flex-basis: 100%;
 	}
 }
+
