@@ -35,18 +35,22 @@ footer{
 	margin: auto;
 	text-align: center;
 }
-@media only screen and (max-width: 1199px){
+@media only screen and (max-width: 1366px){
 
 
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1024px){
+
+
+}
+@media only screen and (max-width: 768){
 	img{
 		width: 426px;
 		height: 240px
 	}
 
 }
-@media only screen and (max-width: 568px){
+@media only screen and (max-width: 411px){
 	.flex-container{
 		flex-direction: column;
 		width: 100%;

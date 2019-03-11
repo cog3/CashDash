@@ -5,18 +5,18 @@ var foo = 'foo';
 	console.log(foo); 
 	console.log(window.foo); 
 	var mockDatabase = [
-		{ _id: '3000', name: 'bitcoin.jpg', published: true },
-		{ _id: '100', name: 'binance.jpg', published: true },
-		{ _id: '250', name:'Dash.jpg', published: false },
-		{ _id: '300', name:'ethereum.jpg', published: false },
-		{ _id: '456', name:'litecoin.jpg', published: true },
-		{ _id: '567', name:'ripple.jpg', published: false },
-		{ _id: '678', name:'stellar.jpg', published: true },
-		{ _id: '789', name:'monero.jpg', published: false },
-		{ _id: '891', name:'eos.jpg', published: true },
-		{ _id: '910', name:'zrx.jpg', published: true },
-		{ _id: '101', name:'dogecoin.jpg', published: false },
-		{ _id: '112', name:'zcash.jpg', published: true },
+		{ _id: '3000', name: 'Images/bitcoin.jpg', published: true },
+		{ _id: '100', name: 'Images/binance.jpg', published: true },
+		{ _id: '250', name:'Images/Dash.jpg', published: false },
+		{ _id: '300', name:'Images/ethereum.jpg', published: false },
+		{ _id: '456', name:'Images/litecoin.jpg', published: true },
+		{ _id: '567', name:'Images/ripple.jpg', published: false },
+		{ _id: '678', name:'Images/stellar.jpg', published: true },
+		{ _id: '789', name:'Images/monero.jpg', published: false },
+		{ _id: '891', name:'Images/eos.jpg', published: true },
+		{ _id: '910', name:'Images/zrx.jpg', published: true },
+		{ _id: '101', name:'Images/dogecoin.jpg', published: false },
+		{ _id: '112', name:'Images/zcash.jpg', published: true },
 	];
 
 function renderList (results) {
@@ -104,7 +104,4 @@ renderList(mockDatabase);
 		var value = event.target.value === 'true';
 		togglePublished(value);
 	});
-
-
-
 })();
