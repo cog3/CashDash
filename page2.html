@@ -1,65 +1,68 @@
 <!DOCTYPE>
 <html>
-	<head>
-		<!--<link rel="stylesheet" type="text/css" href="main.css"> -->
-		<link rel="stylesheet" type="text/css" href="page2.css">
-		
-	</head>
-	<body>
-		<div class="app-container" id="page-wrapper">
-
-			<div class="filter-wrapper">
-
-					<div class="form-group" style="margin-right: 20px;">
-					<label for="orderBy">Order By</label>
-					<select id="orderBy" name="orderBy">
-						<option value="name">Name</option>
-						<option value="published">Does it Convert to Bitcoin</option>
-						<option value="_id">Price</option>
-					</select>
-				</div>
-
-			
-
-		<!--
-			<aside class="navigation">
-				<a href="#">Link 1</a>
-				<a href="#">Link 2</a>
-				<a href="#">Link 3</a>
-				<a href="#">Link 4</a>
-			</aside>
-		-->
-
-		<div class="form-group">
-					<label for="published"> Does it convert to Bitcoin?</label>	
+<head>
+	<link rel="stylesheet" type="text/css" href="page2.css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-sm bg-light sticky-top ">
+		<ul class="navbar-nav d-flex justify-content-around">
+			<li class="nav-item">
+				<a class="nav-link text-success"href="index.html" >Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-success" href="page2.html">Currencies</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-success" href="#bottom">Contact Us</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-success" id="right" href="faq.html"> FAQ </a>
+			</li>
+		</ul>
+	</nav>
+	<div class="app-container" id="page-wrapper">
+		<div class="filter-wrapper">
+			<div class="form-group" style="margin-right: 20px;">
+				<label for="orderBy">Order By</label>
+				<select id="orderBy" name="orderBy">
+					<option value="name">Name</option>
+					<option value="published">Does it Convert to Bitcoin</option>
+					<option value="_id">Price</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="published"> Does it convert to Bitcoin?</label>		
 					<select id="published" name="published">
 						<option value="true">True</option>
 						<option value="false">False</option>
 					</select>
-				</div>
-
-	
-
-				<!-- Results will be added through JavaScript -->
-
 			</div>
-			<div class="content-container">
-				<div class="card"></div>
-				<div class="card1"></div>
-				<div class="card2"></div>
-				<div class="card3"></div>
-				<div class="card4"></div>
-				<div class="card5"></div>
-				<div class="card6"></div>
-				<div class="card7"></div>
-				<div class="card8"></div>
-				<div class="card9"></div>
-				<div class="card10"></div>
-				<div class="card11"></div>
-
 		</div>
-
-		<script type="text/javascript" src="ProductList.js"></script>
-
-	</body>
+		<div class="content-container">
+			<div class="card"></div>
+			<div class="card1"></div>
+			<div class="card2"></div>
+			<div class="card3"></div>
+			<div class="card4"></div>
+			<div class="card5"></div>
+			<div class="card6"></div>
+			<div class="card7"></div>
+			<div class="card8"></div>
+			<div class="card9"></div>
+			<div class="card10"></div>
+			<div class="card11"></div>
+		</div>
+	<!--End of App Container-->	
+	</div>
+	<!--Footer-->
+		<footer class="navbar navbar-expand-sm bg-light " id="bottom">
+			<div class="fbox text-success">CashDash LLC.</div>
+			<div class="fbox text-success"><p>844-321-9876</p><p>info@cashdash.com</p></div>
+			<div class="fbox text-success">55 Broad Street<br>Newark, NJ, 07107</div>
+		</footer>
+	<script type="text/javascript" src="ProductList.js"></script>
+</body>
 </html>
